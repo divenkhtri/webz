@@ -7,16 +7,20 @@ interface whydata {
 
 const whydata: whydata[] = [
     {
-        heading: "Quality",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Data-Driven Insights",
+        subheading: "Unlock actionable insights from 42 dashboards, covering 8 segments like Customer, Order, Finance, and more. Each dashboard provides a comprehensive view with 4 charts and 1 table."
     },
     {
-        heading: "Communication",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Advanced Management Tools",
+        subheading: "Utilize role-based access control, order management, and inventory tools with customizable alerts. Manage Inventory Overview, Suppliers, and Costs seamlessly."
     },
     {
-        heading: "Reliability",
-        subheading: "Follow a hashtag growth total posts, videos and images.more revitions",
+        heading: "Robust Data Security",
+        subheading: "Benefit from our robust security measures and leak-proof pipeline. Implementing 60+ validation and cleaning rules ensures accurate and secure data."
+    },
+    {
+        heading: "AI-Powered Recommendations",
+        subheading: "Enhance decision-making with our menu recommendation and customer propensity models. Get personalized insights and understand customer preferences."
     }
 ]
 
@@ -25,12 +29,12 @@ const Why = () => {
     return (
         <div id="about">
 
-            <div className='mx-auto max-w-7xl px-4 my-20 sm:py-20 lg:px-8'>
+            <div className='mx-auto max-w-7xl px-4 h-auto sm:py-20 lg:px-8'>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
 
                     {/* COLUMN-1 */}
                     <div className="lg:-ml-64">
-                        <Image src="/assets/why/iPad.png" alt="iPad-image" width={4000} height={900} />
+                        <Image src="/assets/why/iPad.png" alt="iPad-image" width={4000} height={1000} />
                     </div>
 
                     {/* COLUMN-2 */}

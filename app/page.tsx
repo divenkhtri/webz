@@ -6,7 +6,7 @@ import Why from './components/Why/index';
 import Network from './components/Network/index';
 import Clientsay from './components/Clientsay/index';
 import Newsletter from './components/Newsletter/Newsletter';
-
+import ClickThroughSection from './components/platformGlimpse/page'
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       <Companies />
       <Buyers />
       <Provide />
+      <ClickThroughSection/>
       <Why />
       <Network />
       <Clientsay />
