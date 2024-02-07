@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <main>
       <div className="px-6 lg:px-8">
-        <div className="mx-auto max-w-7xl pt-16 sm:pt-20 pb-20 banner-image">
+        <div className="mx-auto max-w-7xl pt-16 sm:pt-20 banner-image">
           <div className="text-center">
             <h1 className="text-5xl font-semibold text-navyblue sm:text-5xl lg:text-5xl md:4px">
               Elevate Your Restaurant&apos;s Performance
@@ -31,13 +31,14 @@ const Banner = () => {
               </button>
             </Link>
           </div>
-
-          <Image
-            src={"/assets/banner/dashboard.svg"}
-            alt="banner-image"
-            width={1200}
-            height={598}
-          />
+          <div className="ml-12 mt-8">
+            <Image
+              src={"/assets/banner/dashboard1.svg"}
+              alt="banner-image"
+              width={1200}
+              height={598}
+            />
+          </div>
         </div>
       </div>
     </main>
