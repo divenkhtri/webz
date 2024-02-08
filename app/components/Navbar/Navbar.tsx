@@ -72,17 +72,9 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/* SIGNIN DIALOG */}
-
-            {/* <Signdialog /> */}
-
-            {/* REGISTER DIALOG */}
-
             <Registerdialog />
 
-            {/* DRAWER FOR MOBILE VIEW */}
 
-            {/* DRAWER ICON */}
 
             <div className="block lg:hidden">
               <Bars3Icon
@@ -91,8 +83,6 @@ const Navbar = () => {
                 onClick={() => setIsOpen(true)}
               />
             </div>
-
-            {/* DRAWER LINKS DATA */}
 
             <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
               <Drawerdata />

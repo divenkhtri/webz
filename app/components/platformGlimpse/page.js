@@ -65,34 +65,26 @@ const DashboardSection = () => {
 
       {/* Right side - Cards */}
       <div className="w-1/3 p-4">
-          {cardData.map((card) => (
-            <div key={card.id} className="mb-4">
-              {/* Clickable Card */}
-              <div
-                className={`cursor-pointer border rounded-lg ${
-                  expandedCard === card.id ? "bg-gray-100" : ""
-                }`}
-                onClick={() => handleCardClick(card.id)}
-              >
-                <div className="p-6">
-                  <Image
-                    src={card.gifSrc}
-                    alt={card.title}
-                    width={64}
-                    height={64}
-                    className="mb-5"
-                  />
-                  <h4 className="text-2xl font-semibold">{card.title}</h4>
-                  <p className="text-sm font-normal text-bluegray my-2">
-                    {expandedCard === card.id ? card.description : ""}
-                  </p>
-                </div>
-              </div>
+        {cardData.map((card) => (
+          <div key={card.id} className="mb-4">
+            {/* Clickable Card */}
+            <div
+              className={`cursor-pointer p-4 border rounded-lg ${
+                expandedCard === card.id ? "bg-gray-100" : ""
+              }`}
+              onClick={() => handleCardClick(card.id)}
+            >
+              <h3 className="text-xl font-semibold">{card.title}</h3>
+              <p className="text-gray-600">
+                {expandedCard === card.id ? card.description : ""}
+              </p>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
+      </div>
       </div>
     </div>
   );
 };
+
 export default DashboardSection;
