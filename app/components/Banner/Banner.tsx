@@ -20,9 +20,9 @@ const Banner = () => {
           </div>
 
           <div className="text-center mt-5">
-            <Link href="/components/exploreInsights">
+            <Link href="/components/demoFrom">
               <button className="text-15px text-white font-medium bg-blue py-5 px-9 mt-2 leafbutton">
-                Explore Our Insights
+                Schedule One-on-One Demo
               </button>
             </Link>
             <Link href="/components/learnMore">

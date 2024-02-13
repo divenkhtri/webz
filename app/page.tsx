@@ -7,7 +7,7 @@ import Network from './components/Network/index';
 import Clientsay from './components/Clientsay/index';
 import Newsletter from './components/Newsletter/Newsletter';
 import DashboardSection from './components/platformGlimpse/page'
-
+import AIModels from './components/AIModels/page'
 export default function Home() {
   return (
     <main>
@@ -16,6 +16,7 @@ export default function Home() {
       <Buyers />
       <Provide />
       <DashboardSection/>
+      <AIModels/>
       <Why />
       <Network />
       <Clientsay />
