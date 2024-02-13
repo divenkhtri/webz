@@ -13,7 +13,7 @@ const AIModels = () => {
               Unlock the Power of AI in Your Restaurant
             </p>
             <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">
-              Leverage advanced AI models tailored for your restaurant's success. Explore personalized menu recommendations and understand customer propensity for specific actions.
+              Leverage advanced AI models tailored for your restaurants success. Explore personalized menu recommendations and understand customer propensity for specific actions.
             </h4>
             <Link
               href="/"
